@@ -1,0 +1,24 @@
+# Builds (in-source CMake builds as well)
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+client/udpSender
+client/udpReceiver
+simulator/simulator
+
+# Dependencies are not part of this repository (see the README)
+dependencies/
+
+# Measurements and logs
+logs/
+results/
+*.csv
+
+# Documentation made by Doxygen, editors
+lib/html/
+lib/latex/
+.idea/
+.vscode/
+cmake-build-*/
